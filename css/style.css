@@ -1,0 +1,27 @@
+html
+{
+	font-family: sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.header {
+	height: 200px;
+	background-image: url("/img/header-background.jpg");
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.brown {
+	background-color: orange;
+}
+
+.green {
+	background-color: darkgreen;
+}
