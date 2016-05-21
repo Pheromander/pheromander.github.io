@@ -13,7 +13,13 @@ html
 
 .header {
 	height: 200px;
+
 	background-image: url("/img/header-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+
+	background-color: #4e4e10;
+
 	color: white;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
@@ -24,4 +30,12 @@ html
 
 .green {
 	background-color: darkgreen;
+}
+
+.header h1 {
+	margin-bottom: 0;
+}
+
+.header h2 {
+	margin-top: 0;
 }
