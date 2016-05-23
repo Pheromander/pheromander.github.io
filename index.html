@@ -8,41 +8,67 @@
 		<title>Pheromander</title>
 		<link rel="icon" type="image/png" href="/img/favicon.png">
 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/grind_grid.min.css">
 		<link rel="stylesheet" href="css/grind_helper_classes.min.css">
+		<link rel="stylesheet" href="css/grind_buttons.min.css">
+		<link rel="stylesheet" href="css/grind_animations.min.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 
-	<div class="container-full">
+	<div class="container">
 		<div class="row header">
 			<div class="twelve text-center">
 				<h1>Pheromander</h1>
 				<h2>Real Time Strategy Game using Digital Pheromones</h2>
 			</div>
 		</div><!-- Headline -->
-		<div class="row brown">
+		<nav class="row text-center">
+
+			<!-- <div class="two"></div> -->
+			<a href="index.html" class="button hover-bury">Home</a>
+			<a href="index.html#info" class="button hover-bury">About The Game</a>
+			<a href="index.html#features" class="button hover-bury">Features</a>
+			<a href="index.html#download" class="button hover-bury">Download</a>
+			<a href="index.html#code" class="button hover-bury">Code</a>
+			<a href="index.html#team" class="button hover-bury">Team</a>
+		</nav>
+		<div class="row section" id="info">
 			<div class="twelve">
-				<p>Take control of a colony of ant-like agents, help them to gather resources and to fight off enemies!</p>
+				<h3>About The Game</h3>
+				<p>
+					In Pheromander, you are in command of a colony of ant-like agents. Your duty is to help your colony to expand by collecting resources and by defending against enemies. Like real ants, you cannot control them justy by selecting them and sending them to their destination. Instead, you have to use digital pheromones to guide your agents to mineral sources and to coordinate battles.
+				</p>
 			</div>
 		</div><!-- Introduction -->
-		<div>
-			<div class="twelve green">
+		<div class="row section" id="features">
+			<div class="twelve">
 				<h3>Features</h3>
 			</div>
 		</div>
-		<div>
-			<div class="twelve">
-				<h3>Get it!</h3>
+		<div class="row section">
+			<div class="twelve" id="download">
+				<h3>Download</h3>
+				<p>There are 32bit and 64bit binaries available for Windows and Mac.<br>Please choose the appropriate download link below.</p>
 				<p class="no-margin">Windows (<a href="windows bin">64bit</a>|<a href="windows bin">32bit</a>)</p>
 				<p class="no-margin">Mac (<a href="mac bin">64bit</a>|<a href="mac bin">32bit</a>)</p>
 			</div>
 		</div>
-		<div>
+		<div class="row section" id="code">
 			<div class="twelve">
-				<h3>About</h3>
+				<h3>Source Code</h3>
+				<p>
+					The source code is located at GitHub: <a href="https://github.com/Pheromander/Pheromander">Pheromander</a>
+				</p>
+			</div>
+		</div>
+		<div class="row section" id="team">
+			<div class="twelve">
+				<h3>Team</h3>
 			</div>
 		</div>
 	</div>

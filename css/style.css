@@ -12,7 +12,7 @@ html
 }
 
 .header {
-	height: 200px;
+	min-height: 200px;
 
 	background-image: url("/img/header-background.jpg");
 	background-repeat: no-repeat;
@@ -24,18 +24,26 @@ html
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.brown {
-	background-color: orange;
-}
-
-.green {
-	background-color: darkgreen;
-}
-
 .header h1 {
 	margin-bottom: 0;
 }
 
 .header h2 {
 	margin-top: 0;
+}
+
+h3
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+}
+
+.section
+{
+	border-bottom: solid;
+	border-width: 1px;
 }
