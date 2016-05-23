@@ -1,6 +1,14 @@
 html
 {
 	font-family: sans-serif;
+
+	background-image: url("/img/header-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+
+	/*background-color: #4e4e10;*/
+
+	/*color: white;*/
 }
 
 .text-center {
@@ -13,12 +21,6 @@ html
 
 .header {
 	min-height: 200px;
-
-	background-image: url("/img/header-background.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-
-	background-color: #4e4e10;
 
 	color: white;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -42,8 +44,46 @@ p
 	text-align: center;
 }
 
+a
+{
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+
+{
+	background-color: red;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a.button
+{
+	background-color: #4CAF50;
+}
+
+a.button:hover
+{
+	text-decoration: none;
+}
+
+a.button[class*="hover-"]:hover
+{
+	background-color: #4CAF50;
+}
+
 .section
 {
 	border-bottom: solid;
 	border-width: 1px;
+}
+
+.back-to-top
+{
+	color: grey;
+	font-size: 0.75em;
+	text-decoration: none;
 }
