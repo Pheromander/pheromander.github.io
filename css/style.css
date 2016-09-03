@@ -47,6 +47,11 @@ h3
 p
 {
 	text-align: center;
+	line-height: 150%;
+}
+
+p.top-margin{
+	margin-top: 50px;
 }
 
 a
