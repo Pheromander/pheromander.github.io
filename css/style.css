@@ -1,14 +1,10 @@
 html
 {
 	font-family: sans-serif;
+}
 
-	background-image: url("/img/header-background.jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
-
-	/*background-color: #4e4e10;*/
-
-	/*color: white;*/
+.dark-green-background {
+	background-color: #4e4e10
 }
 
 .text-center {
@@ -24,6 +20,10 @@ html
 
 	color: white;
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+	background-image: url("/img/header-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .header h1 {
